@@ -1,9 +1,9 @@
-
-language: python
+language:
+  -python
 python:
 - "3.3.x"
 
-  # PyPy versions
+
 
     env:
       -PYRAMID=1.7 DB=1MYSQL
@@ -15,8 +15,4 @@ python:
 # command to run tests
 
 script:
-  - pip install -e .
-
-  - initialize_Prjt_db development.ini
-
-  - pserve development.ini
+-py.test
