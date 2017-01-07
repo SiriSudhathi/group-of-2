@@ -1,11 +1,12 @@
 language: python
 python:
-  - "3.5"
-  
+  - "2.7"
+
 env:
-      -PYRAMID=1.7
+ - PYRAMID=1.7
+
 sudo: false
 install:
-    - pip install .
-    - pip install -r requirements.txt
+ - pip install -r requirements.txt
+
 script: pytest
