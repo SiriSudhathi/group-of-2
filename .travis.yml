@@ -1,9 +1,9 @@
 language: python
 python:
-  - "3.3.x"
+  - "3.5.x"
   - "pypy3"
 env:
-      -PYRAMID=1.7 
+      -PYRAMID=1.7
 
 install:
     - pip install .
