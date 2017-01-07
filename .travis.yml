@@ -3,9 +3,8 @@ python:
   - "2.7"
 
 env:
- - PYRAMID=1.7
+ - PYRAMID_TEST_DB_STRING=sqlite://
 
-sudo: false
 install:
  - pip install -r requirements.txt
 
