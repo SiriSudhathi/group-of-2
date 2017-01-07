@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.5.x"
+  - "3.5"
   - "pypy3"
 env:
       -PYRAMID=1.7
