@@ -6,6 +6,6 @@ env:
  - PYRAMID_TEST_DB_STRING=sqlite://
 
 install:
- - pip install -r requirements.txt
+ - pip install -e . -r requirements.txt
 
 script: pytest
