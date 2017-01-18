@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 import bcrypt
 from sqlalchemy import (
     Column,
-=======
-from sqlalchemy import (
-    Column,
-    Index,
->>>>>>> 4622dc78fb228b168ba09e07036864c51d2acb72
     Integer,
     Text,
 )
@@ -14,7 +8,6 @@ from sqlalchemy import (
 from .meta import Base
 
 
-<<<<<<< HEAD
 class User(Base):
     """ The SQLAlchemy declarative model class for a User object. """
     __tablename__ = 'users'
@@ -33,13 +26,3 @@ class User(Base):
             expected_hash = self.password_hash.encode('utf8')
             return bcrypt.checkpw(pw.encode('utf8'), expected_hash)
         return False
-=======
-class MyModel(Base):
-    __tablename__ = 'models'
-    id = Column(Integer, primary_key=True)
-    name = Column(Text)
-    value = Column(Integer)
-
-
-Index('my_index', MyModel.name, unique=True, mysql_length=255)
->>>>>>> 4622dc78fb228b168ba09e07036864c51d2acb72
