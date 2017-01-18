@@ -1,3 +1,4 @@
 *.sqlite
 development.ini
 __pycache__
+*.Prjt.egg-info
