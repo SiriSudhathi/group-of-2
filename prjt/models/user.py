@@ -1,4 +1,4 @@
-import bcrypt
+from passlib.hash import bcrypt
 from sqlalchemy import (
     Column,
     Integer,
