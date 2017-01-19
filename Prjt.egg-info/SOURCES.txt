@@ -4,6 +4,7 @@ README.txt
 development.ini
 production.ini
 pytest.ini
+setup.py
 Prjt.egg-info/PKG-INFO
 Prjt.egg-info/SOURCES.txt
 Prjt.egg-info/dependency_links.txt
@@ -17,6 +18,8 @@ prjt/tests.py
 prjt/models/__init__.py
 prjt/models/meta.py
 prjt/models/mymodel.py
+prjt/models/page.py
+prjt/models/user.py
 prjt/scripts/__init__.py
 prjt/scripts/initializedb.py
 prjt/static/pyramid-16x16.png
