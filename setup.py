@@ -17,6 +17,10 @@ requires = [
     'transaction',
     'zope.sqlalchemy',
     'waitress',
+<<<<<<< HEAD
+=======
+    
+>>>>>>> e1da1b1a24d4a235f61ab3252ab6ba96a072a3ca
     'passlib'
     ]
 

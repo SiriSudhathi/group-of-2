@@ -12,6 +12,6 @@ script: py.test
 cache:
   directories:
     -passlib
+
 services:
   -sqllite
-  
