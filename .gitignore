@@ -1,0 +1,4 @@
+*.sqlite
+development.ini
+pycache
+.egg-info
