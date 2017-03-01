@@ -6,7 +6,8 @@ Home-page: UNKNOWN
 Author: UNKNOWN
 Author-email: UNKNOWN
 License: UNKNOWN
-Description: Testprjt README
+Description: 
+        Testprjt README
         ==================
         
         Getting Started
@@ -19,7 +20,6 @@ Description: Testprjt README
         - $VENV/bin/initialize_Testprjt_db development.ini
         
         - $VENV/bin/pserve development.ini
-        
         
         
         0.0

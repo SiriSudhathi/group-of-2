@@ -1,25 +1,27 @@
 @import "http://fonts.googleapis.com/css?family=Raleway";
 body{
 font-family:'Raleway',sans-serif
+
 }
 img#logo{
 margin-left:90px
 }
-div#first{
-width:350px;
-height:auto;
-margin:50px auto 0;
+#first{
+width:800px;
+height: auto;
+margin:50px;
 padding:50px;
-background-color:#EEE;
-color:#333;
-border:2px solid #C2D6FF;
-border-radius:40px 0 40px 0
+background-color:#AD3D2E;
+color: #333;
+border:30px solid #C2D6FF;
+
+
 }
 label{
 font-size:15px;
 font-weight:700
 }
-input#fname{
+#fname{
 background-image:url(../images/icon_name.png);
 background-repeat:no-repeat;
 background-position:6px;
@@ -41,7 +43,7 @@ border-radius:5px;
 -moz-border-radius:5px
 /* For Mozilla Web Browser */
 }
-input#email{
+#email{
 background-image:url(../images/email.png);
 background-repeat:no-repeat;
 background-position:6px;
